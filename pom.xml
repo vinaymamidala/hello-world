@@ -29,6 +29,16 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+    <repository>
+         <id>deployment</id>
+         <name>Mithun Technologies Releases Nexus Repository</name>
+         <url>http://172.42.42.10:8081/nexus/content/repositories/simple-devops/</url>
+      </repository>
+      <snapshotRepository>
+         <id>deployment</id>
+         <name>Mithun Technologies Snapshot Nexus Repository</name>
+         <url>http://172.42.42.10:8081/nexus/content/repositories/simple-devops-snap/</url>
+      </snapshotRepository>
   </distributionManagement>
 
   <build>
